@@ -11,13 +11,9 @@ A utility library for Android to run jobs delayed in the background. Depending o
 When targeting API 31 and you still use this library (you really should not and migrate to WorkManager instead), then don't forget to add the [exact alarm permission](https://developer.android.com/about/versions/12/behavior-changes-12#exact-alarm-permission) when using exact jobs.
 
 ## Download
-
-Download [the latest version](http://search.maven.org/#search|gav|1|g:"com.evernote"%20AND%20a:"android-job") or grab via Gradle:
-
-```groovy
-dependencies {
-    implementation 'com.evernote:android-job:1.4.3'
-}
+Download the aar and implement it:
+```
+implementation files('libs/android-job_1.4.4f.aar')
 ```
 
 Starting with version `1.3.0` the library will use the `WorkManager` internally, please read the [documentation](https://github.com/evernote/android-job#workmanager) and opt-in.
