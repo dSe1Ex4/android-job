@@ -1,3 +1,6 @@
+## 1.4.4
+* Совместимость с Android 12+ SDK 31+
+
 ## 1.4.3 (2022-04-27)
 * Make `PendingIntent`s immutable, what is required for Target SDK 31, see #600
 
